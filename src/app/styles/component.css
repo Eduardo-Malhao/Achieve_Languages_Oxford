@@ -1,0 +1,273 @@
+@import url(https://fonts.google.com/specimen/Ubuntu);
+
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  max-height: 30vh;
+  max-width: auto;
+
+  background-color: #ffffff;
+}
+
+.header-icons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  background-color: #f0f0f0;
+}
+
+.header-icons{
+  width: 3em;
+  height: 3em;
+  aspect-ratio: 1 / 1;
+
+  margin-right: 0.3em;
+}
+
+.header-icons:hover{
+  filter: invert(65%);
+  transition: filter 0.5s;
+}
+
+.logo{
+  width: 20vw;
+  height: auto;
+}
+
+.links{
+  cursor: pointer;
+  text-decoration: none;
+  
+  padding: 1vw;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4474fa;
+}
+
+.links:hover{
+  color: #ffffff;
+  background-color: #000988;
+  transition: 0.5s;
+}
+
+
+
+.footer{
+  max-width: 100%;
+  max-height: auto;
+
+  background-color: #f0f0f0;
+}
+
+.footer-titles{
+  font-family: Ubuntu, 'Times New Roman', Times, serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.1em;
+
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin: 0;
+}
+
+.footer-container{
+  display: flex;
+  align-items: center;
+}
+
+.left-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 50%;
+}
+
+.social-media-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 35%;
+  height:3.5em;
+
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5em;
+
+  text-decoration: none;
+}
+
+.social-media-text{
+  font-family: Ubuntu, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.right-container{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  width: 50%;
+}
+
+.location-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 35%;
+  height:3.5em;
+
+  margin: 1em 1em 1em 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5em;
+}
+
+.location-image{
+  cursor: pointer;
+
+  width: 80%;
+  height: auto;
+  
+  margin-bottom: 1em;
+
+  border: 1px solid #fff;
+}
+
+.location-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 18em;
+  height:3.5em;
+
+  margin: 1em 1em 1em 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5em;
+
+  text-decoration: none;
+}
+
+.address-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 3.5em;
+
+  margin: 1em 1em 1em 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5em;
+
+  text-decoration: none;
+}
+
+.icons{
+  width: 3em;
+  height: 3em;
+  aspect-ratio: 1 / 1;
+
+  margin-right: 0.5em;
+}
+
+.icon-invert{
+  width: 3em;
+  height: 3em;
+  aspect-ratio: 1 / 1;
+
+  margin-right: 0.5em;
+}
+
+.address-text{
+  font-family: Ubuntu, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #000000;
+}
+
+
+.location-media:hover .icon-invert {
+  filter: brightness(0) invert(1);
+  transition: filter 0.5s;
+}
+
+.social-media:hover{
+  background-color: #000988;
+  transition: 0.5s;
+}
+
+.location-media:hover{
+  background-color: #000988;
+  transition: 0.5s;
+}
+
+.address-container:hover{
+  background-color: #000988;
+  transition: 0.5s;
+}
+
+.social-media:hover .social-media-text {
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.address-container:hover .address-text {
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.location-media:hover .social-media-text {
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.location-image:hover {
+  filter: brightness(105%);
+  transition: filter 0.5s;
+}

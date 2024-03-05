@@ -1,0 +1,81 @@
+.banners{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-height: 80vh;
+  max-width: 100%;
+
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  background-color: #f0f0f0;
+}
+
+.banners-image{
+  width: 45%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+
+  border: 1em solid #ffffff;
+  box-shadow: 0.5em 0.5em 0.5em #757575bd;
+}
+
+.banners-video{
+  width: 45%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+
+  border: 1em solid #ffffff;
+  box-shadow: 0.5em 0.5em 0.5em #757575bd;
+}
+
+.titles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Ubuntu, 'Times New Roman', Times, serif;
+  color: #8b8c99;
+  font-weight: 300;
+  font-size: 2.5em;
+
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+  height: auto;
+
+  padding-left: 1em;
+  padding-right: 1em;
+
+  margin-bottom: 0.5em;
+}
+
+.titles-text{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+
+  font-family: Ubuntu, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: #000988;
+}
+
+.text{
+  text-align: justify;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+
+  font-family: Arial, serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #000000;
+}
